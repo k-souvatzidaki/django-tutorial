@@ -17,3 +17,6 @@ python manage.py check
 REM migrate : command that will run the migrations and manage the database schema automatically
 REM takes all the migrations that haven’t been applied and runs them  on database (APPLY MIGRATIONS)
 python manage.py migrate
+
+REM invoke python shell 
+python manage.py shell
