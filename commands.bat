@@ -24,3 +24,6 @@ python manage.py shell
 REM create admin user
 python manage.py createsuperuser
 REM http://localhost:8000/admin
+
+REM run tests
+python manage.py test polls
